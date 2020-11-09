@@ -29,6 +29,7 @@ def preprocess_text(text):
                   "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", 
                   "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "should", 
                   "now"]
+    
     for j in stop_words:
         text = text.replace(j, '')
     return text
