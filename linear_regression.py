@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Sep  9 20:54:24 2019
-
 @author: Shipra Saini
 """
 
