@@ -139,6 +139,3 @@ while(data):
         success = success + 1
 end = time.time()
 print ('Success rate = %.1f'% (float(success)/float(iteratn - 1)*100), ", Time duration: " + str(end - start))
-            
-                    
-                    
