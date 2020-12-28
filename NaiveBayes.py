@@ -59,7 +59,6 @@ def fetch_file():
     return 'NULL'
 
 def kmeans(clas, k, maxiter=100):
-
     featr = dict((c, [c]) for c in clas[:k])
     featr[clas[k-1]] += clas[k:]
     for i in range(maxiter):
