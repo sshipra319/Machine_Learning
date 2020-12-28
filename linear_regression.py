@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-@author: Shipra Saini
+@author: Shipra
 """
-
 from sklearn.datasets import load_iris
 import numpy as np
 
