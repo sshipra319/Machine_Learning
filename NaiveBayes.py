@@ -32,6 +32,7 @@ def preprocess_text(text):
         text = text.replace(j, '')
     return text
 
+
 def probability(words, dictnry):
     dict_sum = sum(dictnry.values())
     prob = 0.0
